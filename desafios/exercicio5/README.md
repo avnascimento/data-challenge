@@ -1,4 +1,5 @@
 # Diagrama Exercicio 5 DataWarehouse
+![Diagrama DW](./exercicio5_diagram.jpg)
 
 * ## Tabela Transacoes
 A tabela ```Transacoes``` seria alimentada pelas principais tabelas (bankslip,pix_received, pix_send, p2p_tef) utilizadas na consulta anterior. Destas tabelas iriamos extrair as principais colunas para alimentar a tabela Transacoes, são elas: ```amount, account_id, timestamp, transaction_type```.

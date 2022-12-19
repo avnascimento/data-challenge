@@ -1,4 +1,5 @@
 # Diagrama Exercicio 3 
+![Diagrama ETL](./digram_ex3.jpg)
 
 * ## Airflow
 O Airflow vai ser responsavel por orquestrar e realizar as tasks do pipeline de dados. Todo o processo de ETL vai ser criado por ele. Será alocado dentro de uma instancia EC2 ou poderá ser alocado em uma instancia da ECS(via docker).
